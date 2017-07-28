@@ -5,7 +5,6 @@ import os
 
 from workers.basic_worker import BasicUserParseWorker
 
-
 class TestWorkerBasic(unittest.TestCase):
 
     def test_basic_worker_connection(self):
@@ -60,11 +59,3 @@ class TestWorkerBasic(unittest.TestCase):
 
         #self.assertEqual(len_to_crawl_after, len_to_crawl_before)
 		#pass
-
-
-
-
-
-
-
-

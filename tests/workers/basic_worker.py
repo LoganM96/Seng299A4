@@ -8,7 +8,6 @@ import logging
 
 from lxml import html
 
-
 FORMAT = '%(asctime)-15s %(message)s'
 logging.basicConfig(format=FORMAT, level=logging.WARNING)
 log = logging.getLogger(__name__)
